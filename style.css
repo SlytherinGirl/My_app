@@ -1,0 +1,96 @@
+body{
+    margin:0;
+    padding-top: 800px;
+    text-align:center;
+}
+#welcome{
+    position: absolute;
+    bottom: 0px;
+    background:linear-gradient(#ff0000 0%,#785b19 100%) ;
+    display: table; 
+    width: 100%;
+    height: 100%;
+}
+.profile{
+    border-radius: 50%;
+    height: 160px;
+    width: 160px;
+}
+h1{
+    font-size: 40px;
+    font-family: fantasy;
+    font-weight: 300;
+}
+#name{
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+}
+h2{
+    font-size: 30px;
+    font-weight: 300;
+    font-family:monospace ;
+}
+.parallax-inner{
+    display: table-cell;
+    vertical-align: middle;
+
+}
+.menu{
+    list-style: none;
+    position:fixed;
+    background:linear-gradient(#7de3ff 0%,#ff5959 100%);
+    width: 100%;
+    margin-top: 0px;
+    top:0px;
+   
+    z-index: 10;
+    
+}
+.links{
+display:inline;
+
+padding-left: 33px;
+
+padding-right: 25px;
+font-family: cursive;
+font-style: italic;
+font-size: 20px;
+}
+.links:hover{
+    font-size: 25px;
+    text-decoration: underline;
+
+}
+a{
+    text-decoration: none;
+
+}
+#Write a{
+text-decoration: underline !important;
+color: #0dff9e !important;
+}
+#contact{
+    background:linear-gradient(#290045 0%, #aa1f1f 100%);   
+}
+#contact iframe{
+    width: 100%;
+
+}
+.contact_1{
+    display: inline;
+}
+#bio{
+    font-family: inherit;
+    padding: 50px;
+    background:linear-gradient(#00fbff 0%, #a34b4b 100%);
+}
+.line{
+    height: 6px;
+    width: 70px;
+    background-color: #3eed4f;
+    margin: 8px auto; 
+}
+#Videos{
+    background:linear-gradient(#0820ff 0%, #ff001e 100%);
+}  
+}
